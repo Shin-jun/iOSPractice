@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         imgOn = UIImage(named: "image.jpeg")
-        imgOff = UIImage(named: "image1.jpeg")
+        imgOff = UIImage(named: "image2.jpeg")
         
         imgView.image = imgOn
     }
