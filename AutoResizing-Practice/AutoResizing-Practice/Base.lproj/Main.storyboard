@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoResizing_Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YUv-sb-Csp" userLabel="뷰 A">
+                                <rect key="frame" x="20" y="58" width="77" height="741"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="171" id="anP-ga-fC3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S0O-eH-m73" userLabel="뷰 C">
+                                <rect key="frame" x="20" y="349" width="374" height="345"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sBb-xv-dKz" userLabel="뷰 B">
+                                <rect key="frame" x="-88" y="58" width="0.0" height="741"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YUv-sb-Csp" firstAttribute="height" secondItem="S0O-eH-m73" secondAttribute="height" multiplier="0.750725" id="6TA-L8-UpQ"/>
+                            <constraint firstItem="S0O-eH-m73" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="87O-hs-Tct"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sBb-xv-dKz" secondAttribute="trailing" constant="20" id="8rq-dT-FOb"/>
+                            <constraint firstItem="YUv-sb-Csp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="14" id="LcN-LN-VvU"/>
+                            <constraint firstItem="YUv-sb-Csp" firstAttribute="height" secondItem="sBb-xv-dKz" secondAttribute="height" id="ObM-cF-u4H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S0O-eH-m73" secondAttribute="bottom" constant="168" id="agy-B1-ct7"/>
+                            <constraint firstItem="YUv-sb-Csp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bkY-Sy-wIn"/>
+                            <constraint firstItem="sBb-xv-dKz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="14" id="cut-kb-2RB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S0O-eH-m73" secondAttribute="trailing" constant="20" id="mdg-e4-1lu"/>
+                            <constraint firstItem="YUv-sb-Csp" firstAttribute="width" secondItem="sBb-xv-dKz" secondAttribute="width" id="rMh-WO-Npy"/>
+                            <constraint firstItem="S0O-eH-m73" firstAttribute="top" secondItem="YUv-sb-Csp" secondAttribute="bottom" constant="32" id="sgw-r2-EKK"/>
+                            <constraint firstItem="sBb-xv-dKz" firstAttribute="leading" secondItem="YUv-sb-Csp" secondAttribute="trailing" constant="32" id="zbC-DB-rWQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
