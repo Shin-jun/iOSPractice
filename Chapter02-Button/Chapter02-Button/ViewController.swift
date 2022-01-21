@@ -19,8 +19,19 @@ class ViewController: UIViewController {
         btn.center = CGPoint(x: self.view.frame.size.width/2 , y: 100)
         
         self.view.addSubview(btn)
+        
+        // 버튼의 이벤트와 메소드 btnOnClick(_:)을 연결한다.
+        btn.addTarget(self, action: #selector(btnOnClick(_:)), for: .touchUpInside)
+        
+        
     }
-
+    
+    @objc func btnOnClick(_ sender: Any) {
+        // 호출할 객체가 버튼이라면
+        if let btn = sender as? UIButton {
+            btn.setTitle("클릭되었습니다", for: .normal)
+        }
+    }
 
 }
 
