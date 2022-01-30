@@ -13,6 +13,7 @@
 		F9E1EB1627A681130098EA58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E1EB1427A681130098EA58 /* Main.storyboard */; };
 		F9E1EB1827A681150098EA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E1EB1727A681150098EA58 /* Assets.xcassets */; };
 		F9E1EB1B27A681150098EA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E1EB1927A681150098EA58 /* LaunchScreen.storyboard */; };
+		F9E1EB2327A6812D0098EA58 /* CSStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1EB2227A6812D0098EA58 /* CSStepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F9E1EB1727A681150098EA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9E1EB1A27A681150098EA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9E1EB1C27A681150098EA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E1EB2227A6812D0098EA58 /* CSStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSStepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F9E1EB1027A681130098EA58 /* SceneDelegate.swift */,
 				F9E1EB1227A681130098EA58 /* ViewController.swift */,
 				F9E1EB1427A681130098EA58 /* Main.storyboard */,
+				F9E1EB2227A6812D0098EA58 /* CSStepper.swift */,
 				F9E1EB1727A681150098EA58 /* Assets.xcassets */,
 				F9E1EB1927A681150098EA58 /* LaunchScreen.storyboard */,
 				F9E1EB1C27A681150098EA58 /* Info.plist */,
@@ -141,6 +144,7 @@
 				F9E1EB1327A681130098EA58 /* ViewController.swift in Sources */,
 				F9E1EB0F27A681130098EA58 /* AppDelegate.swift in Sources */,
 				F9E1EB1127A681130098EA58 /* SceneDelegate.swift in Sources */,
+				F9E1EB2327A6812D0098EA58 /* CSStepper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
