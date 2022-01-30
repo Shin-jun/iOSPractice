@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9392DF6279FB22E00E8FEEC /* NewSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9392DF5279FB22E00E8FEEC /* NewSceneDelegate.swift */; };
 		F97160DB279B1AC200FB930D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97160DA279B1AC200FB930D /* AppDelegate.swift */; };
 		F97160DD279B1AC200FB930D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97160DC279B1AC200FB930D /* SceneDelegate.swift */; };
 		F97160DF279B1AC200FB930D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97160DE279B1AC200FB930D /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9392DF5279FB22E00E8FEEC /* NewSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSceneDelegate.swift; sourceTree = "<group>"; };
 		F97160D7279B1AC200FB930D /* Chapter03-TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter03-TabBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97160DA279B1AC200FB930D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F97160DC279B1AC200FB930D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		F97160D9279B1AC200FB930D /* Chapter03-TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				F9392DF5279FB22E00E8FEEC /* NewSceneDelegate.swift */,
 				F97160DA279B1AC200FB930D /* AppDelegate.swift */,
 				F97160DC279B1AC200FB930D /* SceneDelegate.swift */,
 				F97160DE279B1AC200FB930D /* ViewController.swift */,
@@ -208,6 +211,7 @@
 				F97160DF279B1AC200FB930D /* ViewController.swift in Sources */,
 				F97160F1279B1B8500FB930D /* ThirdViewController.swift in Sources */,
 				F97160DB279B1AC200FB930D /* AppDelegate.swift in Sources */,
+				F9392DF6279FB22E00E8FEEC /* NewSceneDelegate.swift in Sources */,
 				F97160DD279B1AC200FB930D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
