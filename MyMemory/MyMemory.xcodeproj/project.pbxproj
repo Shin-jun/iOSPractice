@@ -18,6 +18,10 @@
 		F953408D278B30CE001E8C33 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953408C278B30CE001E8C33 /* MemoReadVC.swift */; };
 		F953408F278B3F9E001E8C33 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953408E278B3F9E001E8C33 /* MemoCell.swift */; };
 		F9534091278B4897001E8C33 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9534090278B4897001E8C33 /* MemoData.swift */; };
+		F9E1EB2527A8099F0098EA58 /* CSLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1EB2427A8099F0098EA58 /* CSLogButton.swift */; };
+		F9E1EB2B27A80BCD0098EA58 /* button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E1EB2827A80BCD0098EA58 /* button-bg.png */; };
+		F9E1EB2C27A80BCD0098EA58 /* warning-icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E1EB2927A80BCD0098EA58 /* warning-icon-60@2x.png */; };
+		F9E1EB2D27A80BCD0098EA58 /* memo-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E1EB2A27A80BCD0098EA58 /* memo-background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		F953408C278B30CE001E8C33 /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
 		F953408E278B3F9E001E8C33 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		F9534090278B4897001E8C33 /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
+		F9E1EB2427A8099F0098EA58 /* CSLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSLogButton.swift; sourceTree = "<group>"; };
+		F9E1EB2827A80BCD0098EA58 /* button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-bg.png"; sourceTree = "<group>"; };
+		F9E1EB2927A80BCD0098EA58 /* warning-icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning-icon-60@2x.png"; sourceTree = "<group>"; };
+		F9E1EB2A27A80BCD0098EA58 /* memo-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "memo-background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +74,12 @@
 		F95340702785CD39001E8C33 /* MyMemory */ = {
 			isa = PBXGroup;
 			children = (
+				F9E1EB2727A80BBD0098EA58 /* Resources */,
 				F95340712785CD39001E8C33 /* AppDelegate.swift */,
 				F95340732785CD39001E8C33 /* SceneDelegate.swift */,
 				F95340772785CD39001E8C33 /* Main.storyboard */,
 				F9534090278B4897001E8C33 /* MemoData.swift */,
+				F9E1EB2427A8099F0098EA58 /* CSLogButton.swift */,
 				F953407D2785CD3B001E8C33 /* Assets.xcassets */,
 				F953407F2785CD3B001E8C33 /* LaunchScreen.storyboard */,
 				F95340822785CD3B001E8C33 /* Info.plist */,
@@ -80,6 +90,16 @@
 				F953408E278B3F9E001E8C33 /* MemoCell.swift */,
 			);
 			path = MyMemory;
+			sourceTree = "<group>";
+		};
+		F9E1EB2727A80BBD0098EA58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F9E1EB2827A80BCD0098EA58 /* button-bg.png */,
+				F9E1EB2A27A80BCD0098EA58 /* memo-background@2x.png */,
+				F9E1EB2927A80BCD0098EA58 /* warning-icon-60@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F95340812785CD3B001E8C33 /* LaunchScreen.storyboard in Resources */,
+				F9E1EB2C27A80BCD0098EA58 /* warning-icon-60@2x.png in Resources */,
 				F953407E2785CD3B001E8C33 /* Assets.xcassets in Resources */,
+				F9E1EB2B27A80BCD0098EA58 /* button-bg.png in Resources */,
+				F9E1EB2D27A80BCD0098EA58 /* memo-background@2x.png in Resources */,
 				F95340792785CD39001E8C33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E1EB2527A8099F0098EA58 /* CSLogButton.swift in Sources */,
 				F953408F278B3F9E001E8C33 /* MemoCell.swift in Sources */,
 				F9534091278B4897001E8C33 /* MemoData.swift in Sources */,
 				F953407C2785CD39001E8C33 /* MyMemory.xcdatamodeld in Sources */,

@@ -19,7 +19,18 @@
                         <view key="tableFooterView" contentMode="scaleToFill" id="TBh-y3-yl2">
                             <rect key="frame" x="0.0" y="227" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tiC-lb-yHU" customClass="CSLogButton" customModule="MyMemory" customModuleProvider="target">
+                                    <rect key="frame" x="176.5" y="6.5" width="61" height="31"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="더보기"/>
+                                </button>
+                            </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="tiC-lb-yHU" firstAttribute="centerX" secondItem="TBh-y3-yl2" secondAttribute="centerX" id="HSU-91-50q"/>
+                                <constraint firstItem="tiC-lb-yHU" firstAttribute="centerY" secondItem="TBh-y3-yl2" secondAttribute="centerY" id="cXE-xz-pru"/>
+                            </constraints>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="memoCell" rowHeight="80" id="RiY-Cl-HBr" customClass="MemoCell" customModule="MyMemory" customModuleProvider="target">
@@ -251,7 +262,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFF-bl-igD">
-                                <rect key="frame" x="16" y="104" width="382" height="21"/>
+                                <rect key="frame" x="16" y="104" width="26" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Pva-We-3P9"/>
                                 </constraints>
@@ -260,13 +271,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내용" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYP-Tf-U4P">
-                                <rect key="frame" x="16" y="145" width="382" height="16"/>
+                                <rect key="frame" x="16" y="145" width="26" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wv5-ga-FbD">
-                                <rect key="frame" x="16" y="181" width="382" height="250"/>
+                                <rect key="frame" x="16" y="181" width="26" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="hSy-ck-El0"/>
                                     <constraint firstAttribute="height" constant="250" placeholder="YES" id="xvl-WZ-8j4"/>
