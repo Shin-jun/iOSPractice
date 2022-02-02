@@ -45,6 +45,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F95A989827A91BB80043C345 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		F9E1EB2E27A8F5B90098EA58 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +71,7 @@
 		F9E1EB3927A8F5BA0098EA58 /* Chapter04-SideBar */ = {
 			isa = PBXGroup;
 			children = (
+				F95A989827A91BB80043C345 /* Resource */,
 				F9E1EB5227A8F6C50098EA58 /* sidemenu.png */,
 				F9E1EB5027A8F5F70098EA58 /* SWRevealViewController.h */,
 				F9E1EB4F27A8F5F70098EA58 /* SWRevealViewController.m */,
