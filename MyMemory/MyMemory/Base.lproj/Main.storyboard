@@ -225,7 +225,7 @@
         <!--메모 작성-->
         <scene sceneID="F5Q-5h-cYi">
             <objects>
-                <viewController id="TwJ-K6-Ahw" customClass="MemoFormVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MemoForm" id="TwJ-K6-Ahw" customClass="MemoFormVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MfS-Nb-mlF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -281,6 +281,22 @@
             </objects>
             <point key="canvasLocation" x="555.07246376811599" y="840.40178571428567"/>
         </scene>
+        <!--ProfileVC-->
+        <scene sceneID="E8s-iw-QV6">
+            <objects>
+                <viewController id="H6J-lL-ZLc" customClass="ProfileVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="id4-rG-qmT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="CRu-CL-TVm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="voq-7P-UxC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mYD-Jq-BQT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2287" y="840"/>
+        </scene>
         <!--상세화면-->
         <scene sceneID="bjn-2j-nBC">
             <objects>
@@ -290,7 +306,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFF-bl-igD">
-                                <rect key="frame" x="16" y="104" width="382" height="21"/>
+                                <rect key="frame" x="16" y="104" width="26" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Pva-We-3P9"/>
                                 </constraints>
@@ -299,13 +315,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내용" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYP-Tf-U4P">
-                                <rect key="frame" x="16" y="145" width="382" height="16"/>
+                                <rect key="frame" x="16" y="145" width="26" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wv5-ga-FbD">
-                                <rect key="frame" x="16" y="181" width="382" height="250"/>
+                                <rect key="frame" x="16" y="181" width="26" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="hSy-ck-El0"/>
                                     <constraint firstAttribute="height" constant="250" placeholder="YES" id="xvl-WZ-8j4"/>
@@ -371,6 +387,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aeO-Mh-yLn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-334" y="119"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BB2-W2-TT5">
+            <objects>
+                <navigationController storyboardIdentifier="_Profile" automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnTap="YES" hidesBarsWhenKeyboardAppears="YES" hidesBarsWhenVerticallyCompact="YES" id="0jt-Nf-7Xr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="V8k-F3-2XZ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="H6J-lL-ZLc" kind="relationship" relationship="rootViewController" id="F6L-Te-Ua6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RpV-5H-Wbg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1357" y="840"/>
         </scene>
     </scenes>
     <resources>

@@ -7,9 +7,51 @@
 
 import UIKit
 class SideBarVC: UITableViewController {
+    let nameLabel = UILabel() // 이름 레이블
+    let emailLabel = UILabel() // 이메일 레이블
+    let profileImage = UIImageView() // 프로필 이미지
     
     override func viewDidLoad() {
-        // 테이블 뷰의 헤더 역할을 할 뷰를 정의한다.
+        // 테이블  뷰의 헤더 역할을 할 뷰를 정의한다.
+        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 70))
+        
+        headerView.backgroundColor = .brown
+        
+        // 테이블 뷰의 헤더 뷰로 지정한다.
+        self.tableView.tableHeaderView = headerView
+        
+        // 이름 레이블의 속성을 정의하고, 헤더 뷰에 추가한다.
+        self.nameLabel.frame = CGRect(x: 70, y: 15, width: 100, height: 30)
+        
+        self.nameLabel.text = "꼼꼼한 용준씨"
+        self.nameLabel.textColor = .white
+        self.nameLabel.font = UIFont.boldSystemFont(ofSize: 15)
+        self.nameLabel.backgroundColor = .clear
+        
+        headerView.addSubview(self.nameLabel)
+        
+        // 이메일 레이블의 속성을 정의하고, 헤더 뷰에 추가한다.
+        self.emailLabel.frame = CGRect(x: 70, y: 30, width: 100, height: 30)
+        
+        self.emailLabel.text = "sqlpro@naver.com"
+        self.emailLabel.textColor = .white
+        self.emailLabel.font = UIFont.boldSystemFont(ofSize: 11)
+        self.emailLabel.backgroundColor = .clear
+        
+        headerView.addSubview(self.emailLabel)
+        
+        // 기본 이미지를 구현한다.
+        let defaultProfile = UIImage(named: "account.jpg")
+        self.profileImage.image = defaultProfile
+        self.profileImage.frame = CGRect(x: 10, y: 10, width: 50, height: 50)
+        
+        // 프로필 이미지 둥글게 만들기
+        self.profileImage.layer.cornerRadius = (self.profileImage.frame.width / 2)
+        
+        self.profileImage.layer.borderWidth = 0 // 테두리 두께 0
+        self.profileImage.layer.masksToBounds = true // 마스크 효과
+        
+        view.addSubview(self.profileImage)
         
     }
     
@@ -43,5 +85,22 @@ class SideBarVC: UITableViewController {
         // 폰트 설정
         cell.textLabel?.font = UIFont.systemFont(ofSize: 14)
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0 { // 선택된 행이 새글 작성 메뉴일 때
+            let uv = self.storyboard?.instantiateViewController(withIdentifier: "MemoForm")
+            
+            let target = self.revealViewController().frontViewController as? UINavigationController
+            
+            target?.pushViewController(uv!, animated: true)
+            self.revealViewController().revealToggle(self)
+        } else if indexPath.row == 5 { // 계정관리
+            let uv = self.storyboard?.instantiateViewController(withIdentifier: "_Profile")
+            uv?.modalPresentationStyle = .fullScreen
+            self.present(uv!, animated: true) {
+                self.revealViewController().revealToggle(self)
+            }
+        }
     }
 }
