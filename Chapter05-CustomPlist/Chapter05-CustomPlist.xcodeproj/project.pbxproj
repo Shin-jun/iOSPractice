@@ -14,6 +14,7 @@
 		F93DC87A27B24EF500237D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93DC87927B24EF500237D6B /* Assets.xcassets */; };
 		F93DC87D27B24EF500237D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93DC87B27B24EF500237D6B /* LaunchScreen.storyboard */; };
 		F93DC88527B258D200237D6B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93DC88427B258D200237D6B /* ListViewController.swift */; };
+		F93DC88727C21B8400237D6B /* UserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F93DC88627C21B8400237D6B /* UserInfo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F93DC87C27B24EF500237D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F93DC87E27B24EF500237D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F93DC88427B258D200237D6B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F93DC88627C21B8400237D6B /* UserInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserInfo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F93DC87927B24EF500237D6B /* Assets.xcassets */,
 				F93DC87B27B24EF500237D6B /* LaunchScreen.storyboard */,
 				F93DC87E27B24EF500237D6B /* Info.plist */,
+				F93DC88627C21B8400237D6B /* UserInfo.plist */,
 			);
 			path = "Chapter05-CustomPlist";
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 				F93DC87D27B24EF500237D6B /* LaunchScreen.storyboard in Resources */,
 				F93DC87A27B24EF500237D6B /* Assets.xcassets in Resources */,
 				F93DC87827B24EF300237D6B /* Main.storyboard in Resources */,
+				F93DC88727C21B8400237D6B /* UserInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
