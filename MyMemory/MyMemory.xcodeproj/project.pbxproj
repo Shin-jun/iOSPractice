@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F93DC81D27AE4AEC00237D6B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93DC81C27AE4AEC00237D6B /* ProfileVC.swift */; };
 		F93DC81F27AE7C6200237D6B /* profile-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F93DC81E27AE7C6200237D6B /* profile-bg.png */; };
+		F93DC88927C3902800237D6B /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93DC88827C3902800237D6B /* UserInfoManager.swift */; };
 		F95340722785CD39001E8C33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95340712785CD39001E8C33 /* AppDelegate.swift */; };
 		F95340742785CD39001E8C33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95340732785CD39001E8C33 /* SceneDelegate.swift */; };
 		F95340792785CD39001E8C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95340772785CD39001E8C33 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		F93DC81C27AE4AEC00237D6B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		F93DC81E27AE7C6200237D6B /* profile-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-bg.png"; sourceTree = "<group>"; };
+		F93DC88827C3902800237D6B /* UserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
 		F953406E2785CD39001E8C33 /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95340712785CD39001E8C33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F95340732785CD39001E8C33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				F95A98AC27AACCDA0043C345 /* MyMemory-Bridging-Header.h */,
 				F95A98C027AC07E40043C345 /* SideBarVC.swift */,
 				F93DC81C27AE4AEC00237D6B /* ProfileVC.swift */,
+				F93DC88827C3902800237D6B /* UserInfoManager.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				F95340722785CD39001E8C33 /* AppDelegate.swift in Sources */,
 				F95A98AF27AACCDB0043C345 /* SWRevealViewController.m in Sources */,
 				F9534089278B308C001E8C33 /* MemoListVC.swift in Sources */,
+				F93DC88927C3902800237D6B /* UserInfoManager.swift in Sources */,
 				F95340742785CD39001E8C33 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
