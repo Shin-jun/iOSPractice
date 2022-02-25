@@ -7,6 +7,7 @@
 
 import UIKit
 class SideBarVC: UITableViewController {
+    let uinfo = UserInfoManager() // 개인 정보 관리 매니저
     let nameLabel = UILabel() // 이름 레이블
     let emailLabel = UILabel() // 이메일 레이블
     let profileImage = UIImageView() // 프로필 이미지
@@ -23,7 +24,6 @@ class SideBarVC: UITableViewController {
         // 이름 레이블의 속성을 정의하고, 헤더 뷰에 추가한다.
         self.nameLabel.frame = CGRect(x: 70, y: 15, width: 100, height: 30)
         
-        self.nameLabel.text = "꼼꼼한 용준씨"
         self.nameLabel.textColor = .white
         self.nameLabel.font = UIFont.boldSystemFont(ofSize: 15)
         self.nameLabel.backgroundColor = .clear
@@ -33,7 +33,6 @@ class SideBarVC: UITableViewController {
         // 이메일 레이블의 속성을 정의하고, 헤더 뷰에 추가한다.
         self.emailLabel.frame = CGRect(x: 70, y: 30, width: 100, height: 30)
         
-        self.emailLabel.text = "sqlpro@naver.com"
         self.emailLabel.textColor = .white
         self.emailLabel.font = UIFont.boldSystemFont(ofSize: 11)
         self.emailLabel.backgroundColor = .clear
@@ -41,8 +40,6 @@ class SideBarVC: UITableViewController {
         headerView.addSubview(self.emailLabel)
         
         // 기본 이미지를 구현한다.
-        let defaultProfile = UIImage(named: "account.jpg")
-        self.profileImage.image = defaultProfile
         self.profileImage.frame = CGRect(x: 10, y: 10, width: 50, height: 50)
         
         // 프로필 이미지 둥글게 만들기
@@ -52,7 +49,13 @@ class SideBarVC: UITableViewController {
         self.profileImage.layer.masksToBounds = true // 마스크 효과
         
         view.addSubview(self.profileImage)
-        
+    }
+    
+    // 사이드 바가 화면에 표시될 떄마다 로그인정보를 읽어와 갱신하는 메소드
+    override func viewWillAppear(_ animated: Bool) {
+        self.nameLabel.text = self.uinfo.name ?? "Guest"
+        self.emailLabel.text = self.uinfo.account ?? ""
+        self.profileImage.image = self.uinfo.profile
     }
     
     // 목록 데이터 배열

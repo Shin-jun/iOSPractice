@@ -10,6 +10,10 @@
 		F93DC81D27AE4AEC00237D6B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93DC81C27AE4AEC00237D6B /* ProfileVC.swift */; };
 		F93DC81F27AE7C6200237D6B /* profile-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F93DC81E27AE7C6200237D6B /* profile-bg.png */; };
 		F93DC88927C3902800237D6B /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93DC88827C3902800237D6B /* UserInfoManager.swift */; };
+		F93DC88B27C62AC200237D6B /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93DC88A27C62AC200237D6B /* Tutorial.storyboard */; };
+		F93DC88D27C6651E00237D6B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93DC88C27C6651E00237D6B /* Utils.swift */; };
+		F93DC88F27C69FCD00237D6B /* TutorialContentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93DC88E27C69FCD00237D6B /* TutorialContentsVC.swift */; };
+		F93DC89227C6A30D00237D6B /* TutorialMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93DC89127C6A30D00237D6B /* TutorialMasterVC.swift */; };
 		F95340722785CD39001E8C33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95340712785CD39001E8C33 /* AppDelegate.swift */; };
 		F95340742785CD39001E8C33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95340732785CD39001E8C33 /* SceneDelegate.swift */; };
 		F95340792785CD39001E8C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95340772785CD39001E8C33 /* Main.storyboard */; };
@@ -41,6 +45,10 @@
 		F93DC81C27AE4AEC00237D6B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		F93DC81E27AE7C6200237D6B /* profile-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-bg.png"; sourceTree = "<group>"; };
 		F93DC88827C3902800237D6B /* UserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
+		F93DC88A27C62AC200237D6B /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		F93DC88C27C6651E00237D6B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F93DC88E27C69FCD00237D6B /* TutorialContentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialContentsVC.swift; sourceTree = "<group>"; };
+		F93DC89127C6A30D00237D6B /* TutorialMasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialMasterVC.swift; sourceTree = "<group>"; };
 		F953406E2785CD39001E8C33 /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95340712785CD39001E8C33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F95340732785CD39001E8C33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,9 +91,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F93DC89027C6A02300237D6B /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				F93DC88E27C69FCD00237D6B /* TutorialContentsVC.swift */,
+				F93DC89127C6A30D00237D6B /* TutorialMasterVC.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
 		F95340652785CD39001E8C33 = {
 			isa = PBXGroup;
 			children = (
+				F9E1EB2727A80BBD0098EA58 /* Resources */,
 				F95340702785CD39001E8C33 /* MyMemory */,
 				F953406F2785CD39001E8C33 /* Products */,
 			);
@@ -102,7 +120,7 @@
 		F95340702785CD39001E8C33 /* MyMemory */ = {
 			isa = PBXGroup;
 			children = (
-				F9E1EB2727A80BBD0098EA58 /* Resources */,
+				F93DC89027C6A02300237D6B /* Tutorial */,
 				F95340712785CD39001E8C33 /* AppDelegate.swift */,
 				F95A98AE27AACCDB0043C345 /* SWRevealViewController.h */,
 				F95A98AD27AACCDB0043C345 /* SWRevealViewController.m */,
@@ -112,6 +130,8 @@
 				F9E1EB2427A8099F0098EA58 /* CSLogButton.swift */,
 				F953407D2785CD3B001E8C33 /* Assets.xcassets */,
 				F953407F2785CD3B001E8C33 /* LaunchScreen.storyboard */,
+				F93DC88A27C62AC200237D6B /* Tutorial.storyboard */,
+				F93DC88C27C6651E00237D6B /* Utils.swift */,
 				F95340822785CD3B001E8C33 /* Info.plist */,
 				F953407A2785CD39001E8C33 /* MyMemory.xcdatamodeld */,
 				F9534088278B308C001E8C33 /* MemoListVC.swift */,
@@ -218,6 +238,7 @@
 				F95A98BD27AACD770043C345 /* sidemenu.png in Resources */,
 				F95A98BF27AACD770043C345 /* icon01.png in Resources */,
 				F95A98B827AACD770043C345 /* account@2x.jpg in Resources */,
+				F93DC88B27C62AC200237D6B /* Tutorial.storyboard in Resources */,
 				F95340792785CD39001E8C33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,15 +253,18 @@
 				F93DC81D27AE4AEC00237D6B /* ProfileVC.swift in Sources */,
 				F9E1EB2527A8099F0098EA58 /* CSLogButton.swift in Sources */,
 				F95A98C127AC07E40043C345 /* SideBarVC.swift in Sources */,
+				F93DC88D27C6651E00237D6B /* Utils.swift in Sources */,
 				F953408F278B3F9E001E8C33 /* MemoCell.swift in Sources */,
 				F9534091278B4897001E8C33 /* MemoData.swift in Sources */,
 				F953407C2785CD39001E8C33 /* MyMemory.xcdatamodeld in Sources */,
 				F953408B278B30BE001E8C33 /* MemoFormVC.swift in Sources */,
 				F953408D278B30CE001E8C33 /* MemoReadVC.swift in Sources */,
 				F95340722785CD39001E8C33 /* AppDelegate.swift in Sources */,
+				F93DC89227C6A30D00237D6B /* TutorialMasterVC.swift in Sources */,
 				F95A98AF27AACCDB0043C345 /* SWRevealViewController.m in Sources */,
 				F9534089278B308C001E8C33 /* MemoListVC.swift in Sources */,
 				F93DC88927C3902800237D6B /* UserInfoManager.swift in Sources */,
+				F93DC88F27C69FCD00237D6B /* TutorialContentsVC.swift in Sources */,
 				F95340742785CD39001E8C33 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

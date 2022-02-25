@@ -61,6 +61,14 @@ class MemoListVC: UITableViewController {
     
     // 디바이스 스크린에 뷰 컨트롤러가 나타날 때마다 호출되는 메소드
     override func viewWillAppear(_ animated: Bool) {
+        let ud = UserDefaults.standard
+        if ud.bool(forKey: UserInfoKey.tutorial) == false {
+            let vc = self.instanceTutorialVC(name: "MasterVC")
+            vc?.modalPresentationStyle = .fullScreen
+            self.present(vc!, animated: false)
+            return
+        }
+        
         // 테이블 데이터를 다시 읽어들인다. 이에 따라 행을 구성하는 로직이 다시 실행될 것이다.
         self.tableView.reloadData()
     }
