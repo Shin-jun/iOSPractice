@@ -11,6 +11,10 @@
 		05FB2E272858683D0089359B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB2E262858683D0089359B /* ContentView.swift */; };
 		05FB2E292858683E0089359B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FB2E282858683E0089359B /* Assets.xcassets */; };
 		05FB2E2C2858683E0089359B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FB2E2B2858683E0089359B /* Preview Assets.xcassets */; };
+		05FB2E332858724A0089359B /* EndCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB2E322858724A0089359B /* EndCredits.swift */; };
+		05FB2E372858CF460089359B /* EndingCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB2E362858CF460089359B /* EndingCredits.swift */; };
+		05FB2E392858D0B20089359B /* FadeAway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB2E382858D0B20089359B /* FadeAway.swift */; };
+		05FB2E3B2859AD0A0089359B /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB2E3A2859AD0A0089359B /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		05FB2E262858683D0089359B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05FB2E282858683E0089359B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05FB2E2B2858683E0089359B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05FB2E322858724A0089359B /* EndCredits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndCredits.swift; sourceTree = "<group>"; };
+		05FB2E362858CF460089359B /* EndingCredits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndingCredits.swift; sourceTree = "<group>"; };
+		05FB2E382858D0B20089359B /* FadeAway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeAway.swift; sourceTree = "<group>"; };
+		05FB2E3A2859AD0A0089359B /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				05FB2E242858683D0089359B /* EndCreditsViewApp.swift */,
 				05FB2E262858683D0089359B /* ContentView.swift */,
+				05FB2E322858724A0089359B /* EndCredits.swift */,
+				05FB2E362858CF460089359B /* EndingCredits.swift */,
+				05FB2E382858D0B20089359B /* FadeAway.swift */,
 				05FB2E282858683E0089359B /* Assets.xcassets */,
 				05FB2E2A2858683E0089359B /* Preview Content */,
+				05FB2E3A2859AD0A0089359B /* Image.swift */,
 			);
 			path = EndCreditsView;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				05FB2E272858683D0089359B /* ContentView.swift in Sources */,
+				05FB2E3B2859AD0A0089359B /* Image.swift in Sources */,
+				05FB2E372858CF460089359B /* EndingCredits.swift in Sources */,
+				05FB2E392858D0B20089359B /* FadeAway.swift in Sources */,
 				05FB2E252858683D0089359B /* EndCreditsViewApp.swift in Sources */,
+				05FB2E332858724A0089359B /* EndCredits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

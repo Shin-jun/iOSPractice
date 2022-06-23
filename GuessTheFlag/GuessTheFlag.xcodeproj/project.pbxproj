@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05FB2E4C2859CD740089359B /* BackgroundMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB2E4B2859CD740089359B /* BackgroundMusicApp.swift */; };
-		05FB2E4E2859CD740089359B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB2E4D2859CD740089359B /* ContentView.swift */; };
-		05FB2E502859CD760089359B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FB2E4F2859CD760089359B /* Assets.xcassets */; };
-		05FB2E532859CD760089359B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FB2E522859CD760089359B /* Preview Assets.xcassets */; };
-		05FB2E5A2859D1170089359B /* MyVeryOwnDeadShip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05FB2E592859D1170089359B /* MyVeryOwnDeadShip.mp3 */; };
+		05FABED7286384A700E717C9 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FABED6286384A700E717C9 /* GuessTheFlagApp.swift */; };
+		05FABED9286384A700E717C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FABED8286384A700E717C9 /* ContentView.swift */; };
+		05FABEDB286384A900E717C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FABEDA286384A900E717C9 /* Assets.xcassets */; };
+		05FABEDE286384A900E717C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FABEDD286384A900E717C9 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05FB2E482859CD740089359B /* BackgroundMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		05FB2E4B2859CD740089359B /* BackgroundMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMusicApp.swift; sourceTree = "<group>"; };
-		05FB2E4D2859CD740089359B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		05FB2E4F2859CD760089359B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05FB2E522859CD760089359B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		05FB2E592859D1170089359B /* MyVeryOwnDeadShip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MyVeryOwnDeadShip.mp3; sourceTree = "<group>"; };
+		05FABED3286384A700E717C9 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FABED6286384A700E717C9 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
+		05FABED8286384A700E717C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05FABEDA286384A900E717C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05FABEDD286384A900E717C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05FB2E452859CD740089359B /* Frameworks */ = {
+		05FABED0286384A700E717C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05FB2E3F2859CD740089359B = {
+		05FABECA286384A700E717C9 = {
 			isa = PBXGroup;
 			children = (
-				05FB2E4A2859CD740089359B /* BackgroundMusic */,
-				05FB2E492859CD740089359B /* Products */,
+				05FABED5286384A700E717C9 /* GuessTheFlag */,
+				05FABED4286384A700E717C9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		05FB2E492859CD740089359B /* Products */ = {
+		05FABED4286384A700E717C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05FB2E482859CD740089359B /* BackgroundMusic.app */,
+				05FABED3286384A700E717C9 /* GuessTheFlag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05FB2E4A2859CD740089359B /* BackgroundMusic */ = {
+		05FABED5286384A700E717C9 /* GuessTheFlag */ = {
 			isa = PBXGroup;
 			children = (
-				05FB2E4B2859CD740089359B /* BackgroundMusicApp.swift */,
-				05FB2E4D2859CD740089359B /* ContentView.swift */,
-				05FB2E4F2859CD760089359B /* Assets.xcassets */,
-				05FB2E592859D1170089359B /* MyVeryOwnDeadShip.mp3 */,
-				05FB2E512859CD760089359B /* Preview Content */,
+				05FABED6286384A700E717C9 /* GuessTheFlagApp.swift */,
+				05FABED8286384A700E717C9 /* ContentView.swift */,
+				05FABEDA286384A900E717C9 /* Assets.xcassets */,
+				05FABEDC286384A900E717C9 /* Preview Content */,
 			);
-			path = BackgroundMusic;
+			path = GuessTheFlag;
 			sourceTree = "<group>";
 		};
-		05FB2E512859CD760089359B /* Preview Content */ = {
+		05FABEDC286384A900E717C9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				05FB2E522859CD760089359B /* Preview Assets.xcassets */,
+				05FABEDD286384A900E717C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05FB2E472859CD740089359B /* BackgroundMusic */ = {
+		05FABED2286384A700E717C9 /* GuessTheFlag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05FB2E562859CD760089359B /* Build configuration list for PBXNativeTarget "BackgroundMusic" */;
+			buildConfigurationList = 05FABEE1286384A900E717C9 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
 			buildPhases = (
-				05FB2E442859CD740089359B /* Sources */,
-				05FB2E452859CD740089359B /* Frameworks */,
-				05FB2E462859CD740089359B /* Resources */,
+				05FABECF286384A700E717C9 /* Sources */,
+				05FABED0286384A700E717C9 /* Frameworks */,
+				05FABED1286384A700E717C9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BackgroundMusic;
-			productName = BackgroundMusic;
-			productReference = 05FB2E482859CD740089359B /* BackgroundMusic.app */;
+			name = GuessTheFlag;
+			productName = GuessTheFlag;
+			productReference = 05FABED3286384A700E717C9 /* GuessTheFlag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		05FB2E402859CD740089359B /* Project object */ = {
+		05FABECB286384A700E717C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					05FB2E472859CD740089359B = {
+					05FABED2286384A700E717C9 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = 05FB2E432859CD740089359B /* Build configuration list for PBXProject "BackgroundMusic" */;
+			buildConfigurationList = 05FABECE286384A700E717C9 /* Build configuration list for PBXProject "GuessTheFlag" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 05FB2E3F2859CD740089359B;
-			productRefGroup = 05FB2E492859CD740089359B /* Products */;
+			mainGroup = 05FABECA286384A700E717C9;
+			productRefGroup = 05FABED4286384A700E717C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05FB2E472859CD740089359B /* BackgroundMusic */,
+				05FABED2286384A700E717C9 /* GuessTheFlag */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05FB2E462859CD740089359B /* Resources */ = {
+		05FABED1286384A700E717C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05FB2E532859CD760089359B /* Preview Assets.xcassets in Resources */,
-				05FB2E502859CD760089359B /* Assets.xcassets in Resources */,
-				05FB2E5A2859D1170089359B /* MyVeryOwnDeadShip.mp3 in Resources */,
+				05FABEDE286384A900E717C9 /* Preview Assets.xcassets in Resources */,
+				05FABEDB286384A900E717C9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05FB2E442859CD740089359B /* Sources */ = {
+		05FABECF286384A700E717C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05FB2E4E2859CD740089359B /* ContentView.swift in Sources */,
-				05FB2E4C2859CD740089359B /* BackgroundMusicApp.swift in Sources */,
+				05FABED9286384A700E717C9 /* ContentView.swift in Sources */,
+				05FABED7286384A700E717C9 /* GuessTheFlagApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		05FB2E542859CD760089359B /* Debug */ = {
+		05FABEDF286384A900E717C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		05FB2E552859CD760089359B /* Release */ = {
+		05FABEE0286384A900E717C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,14 +259,14 @@
 			};
 			name = Release;
 		};
-		05FB2E572859CD760089359B /* Debug */ = {
+		05FABEE2286384A900E717C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BackgroundMusic/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
 				DEVELOPMENT_TEAM = TZPPZDYCQY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shinyong.BackgroundMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinyong.GuessTheFlag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		05FB2E582859CD760089359B /* Release */ = {
+		05FABEE3286384A900E717C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BackgroundMusic/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
 				DEVELOPMENT_TEAM = TZPPZDYCQY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shinyong.BackgroundMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinyong.GuessTheFlag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05FB2E432859CD740089359B /* Build configuration list for PBXProject "BackgroundMusic" */ = {
+		05FABECE286384A700E717C9 /* Build configuration list for PBXProject "GuessTheFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05FB2E542859CD760089359B /* Debug */,
-				05FB2E552859CD760089359B /* Release */,
+				05FABEDF286384A900E717C9 /* Debug */,
+				05FABEE0286384A900E717C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05FB2E562859CD760089359B /* Build configuration list for PBXNativeTarget "BackgroundMusic" */ = {
+		05FABEE1286384A900E717C9 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05FB2E572859CD760089359B /* Debug */,
-				05FB2E582859CD760089359B /* Release */,
+				05FABEE2286384A900E717C9 /* Debug */,
+				05FABEE3286384A900E717C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 05FB2E402859CD740089359B /* Project object */;
+	rootObject = 05FABECB286384A700E717C9 /* Project object */;
 }

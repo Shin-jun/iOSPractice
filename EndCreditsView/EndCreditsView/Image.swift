@@ -7,14 +7,15 @@
 
 import SwiftUI
 
-struct Image: View {
+struct ImageView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(systemName: "gear")
+            .padding(.bottom, 100)
     }
 }
 
-struct Image_Previews: PreviewProvider {
+struct ImageView_Previews: PreviewProvider {
     static var previews: some View {
-        Image()
+        ImageView()
     }
 }
