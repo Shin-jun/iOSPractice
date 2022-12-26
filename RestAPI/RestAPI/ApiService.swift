@@ -11,8 +11,10 @@ class ApiService {
     
     private var dataTask: URLSessionDataTask?
     
+    // URL에서 데이터를 가져오는 메소드
     func getPopularMoviesData(completion: @escaping (Result<MoviesData, Error>) -> Void) {
         
+        // URL
         let popularMoviesURL =
             "https://api.themoviedb.org/3/movie/popular?api_key=8040c691aca0c3af1f50271d825922ac&language=en-US&page=1"
         

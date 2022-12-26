@@ -47,19 +47,21 @@ extension View {
     }
 }
 
-struct ContentVIew3: View {
+struct ContentView3: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            titleStyle()
-        
-        Color.blue
-            .frame(width: 300, height: 200)
-            .watermarked(with: "Hacking with Swift")
+        VStack {
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                .titleStyle()
+            
+            Color.blue
+                .frame(width: 300, height:300)
+                .watermarked(with: "Hacking with Swift")
+        }
     }
 }
 
-struct ContentVIew3_Previews: PreviewProvider {
+struct ContentView3_Previews: PreviewProvider {
     static var previews: some View {
-        ContentVIew3()
+        ContentView3()
     }
 }

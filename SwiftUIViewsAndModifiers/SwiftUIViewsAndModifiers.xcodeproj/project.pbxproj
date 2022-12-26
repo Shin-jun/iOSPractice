@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0503972E28FABC08005741BF /* ContentView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0503972D28FABC08005741BF /* ContentView5.swift */; };
+		05A9B91E28FBDA7A008176A4 /* ContentView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A9B91D28FBDA7A008176A4 /* ContentView6.swift */; };
 		05B58EB3286B734000AE2496 /* ContentVIew3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B58EB2286B734000AE2496 /* ContentVIew3.swift */; };
 		05B58EB5286B75D000AE2496 /* ContentView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B58EB4286B75CF00AE2496 /* ContentView4.swift */; };
 		05EA3876286A0A4C007DDD00 /* SwiftUIViewsAndModifiersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EA3875286A0A4C007DDD00 /* SwiftUIViewsAndModifiersApp.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0503972D28FABC08005741BF /* ContentView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView5.swift; sourceTree = "<group>"; };
+		05A9B91D28FBDA7A008176A4 /* ContentView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView6.swift; sourceTree = "<group>"; };
 		05B58EB2286B734000AE2496 /* ContentVIew3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVIew3.swift; sourceTree = "<group>"; };
 		05B58EB4286B75CF00AE2496 /* ContentView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView4.swift; sourceTree = "<group>"; };
 		05EA3872286A0A4C007DDD00 /* SwiftUIViewsAndModifiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIViewsAndModifiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,8 +64,10 @@
 				05EA3875286A0A4C007DDD00 /* SwiftUIViewsAndModifiersApp.swift */,
 				05EA3877286A0A4C007DDD00 /* ContentView.swift */,
 				05EA3883286B6C9B007DDD00 /* ContentView2.swift */,
+				0503972D28FABC08005741BF /* ContentView5.swift */,
 				05B58EB2286B734000AE2496 /* ContentVIew3.swift */,
 				05B58EB4286B75CF00AE2496 /* ContentView4.swift */,
+				05A9B91D28FBDA7A008176A4 /* ContentView6.swift */,
 				05EA3879286A0A4D007DDD00 /* Assets.xcassets */,
 				05EA387B286A0A4D007DDD00 /* Preview Content */,
 			);
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0503972E28FABC08005741BF /* ContentView5.swift in Sources */,
 				05EA3884286B6C9B007DDD00 /* ContentView2.swift in Sources */,
 				05EA3878286A0A4C007DDD00 /* ContentView.swift in Sources */,
+				05A9B91E28FBDA7A008176A4 /* ContentView6.swift in Sources */,
 				05B58EB3286B734000AE2496 /* ContentVIew3.swift in Sources */,
 				05B58EB5286B75D000AE2496 /* ContentView4.swift in Sources */,
 				05EA3876286A0A4C007DDD00 /* SwiftUIViewsAndModifiersApp.swift in Sources */,

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var userRedText = false
+    
     var body: some View {
         Button("Hello, world!") {
             userRedText.toggle()

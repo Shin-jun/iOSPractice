@@ -11,6 +11,8 @@
 		0558BD53286CC0C200FA4E4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558BD52286CC0C200FA4E4C /* ContentView.swift */; };
 		0558BD55286CC0C300FA4E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0558BD54286CC0C300FA4E4C /* Assets.xcassets */; };
 		0558BD58286CC0C300FA4E4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0558BD57286CC0C300FA4E4C /* Preview Assets.xcassets */; };
+		05A9B9C429053ABB008176A4 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A9B9C329053ABB008176A4 /* DatePicker.swift */; };
+		05A9B9C629053C4E008176A4 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A9B9C529053C4E008176A4 /* ContentView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0558BD52286CC0C200FA4E4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0558BD54286CC0C300FA4E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0558BD57286CC0C300FA4E4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05A9B9C329053ABB008176A4 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		05A9B9C529053C4E008176A4 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				0558BD50286CC0C200FA4E4C /* SwiftUIBetterRestApp.swift */,
 				0558BD52286CC0C200FA4E4C /* ContentView.swift */,
+				05A9B9C329053ABB008176A4 /* DatePicker.swift */,
+				05A9B9C529053C4E008176A4 /* ContentView2.swift */,
 				0558BD54286CC0C300FA4E4C /* Assets.xcassets */,
 				0558BD56286CC0C300FA4E4C /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0558BD53286CC0C200FA4E4C /* ContentView.swift in Sources */,
+				05A9B9C629053C4E008176A4 /* ContentView2.swift in Sources */,
 				0558BD51286CC0C200FA4E4C /* SwiftUIBetterRestApp.swift in Sources */,
+				05A9B9C429053ABB008176A4 /* DatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
